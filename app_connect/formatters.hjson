@@ -1,0 +1,21 @@
+{
+  formatters: [
+    {
+    type: 'method_timestampToAge',
+    groupTitle: 'Date and Time',
+    groupIcon: 'fa fa-lg fa-calendar',
+    addTitle: 'To Age',
+    title: 'To Age',
+    icon: 'fa fa-lg fa-hashtag',
+    state: 'opened',
+    help: 'Convert timestamp to age from now.',
+    properties: [],
+    copyFiles: [
+    {src: 'dmx-timestamp-to-age.js', dst: 'js/dmx-timestamp-to-age.js'},
+    ],
+    linkFiles: [
+    {src: 'js/dmx-timestamp-to-age.js', type: 'js', defer: true},
+    ],  
+  }
+]
+}
