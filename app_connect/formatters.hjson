@@ -2,11 +2,10 @@
   formatters: [
     {
     type: 'method_timestampToAge',
-    groupTitle: 'Date and Time',
-    groupIcon: 'fa fa-lg fa-calendar',
-    addTitle: 'To Age',
+    groupTitle: 'Timestamp',
+    groupIcon: 'fa fa-calendar',
     title: 'To Age',
-    icon: 'fa fa-lg fa-hashtag',
+    icon: 'fa fa-clock-o',
     state: 'opened',
     help: 'Convert timestamp to age from now.',
     properties: [],
